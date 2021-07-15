@@ -14,3 +14,9 @@ command would be required to compile the threaded source file.
 You can specify the number of threads used by OpenMP via the following command:
 
 export OMP_NUM_THREADS="YOUR SPECIFIED NUMBER OF THREADS"
+
+Implementation Limitations:
+
+This example is just a demonstration of performing multithreading via tasking based queue implementation using OpenMP.
+In general, this implementation would suffer from contention (due to locking) on the queue used for storing the tasks. 
+As a result, speedups might be limited for higher number of threads. 
