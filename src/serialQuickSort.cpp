@@ -17,10 +17,11 @@ int partition(T& arr, int left, int pivot, int& pivotIdx, int right) {
             temp = arr.at(idx);
             arr.at(idx) = arr.at(leftIdx);
             arr.at(leftIdx) = temp;
-            leftIdx += 1;
 
             if (leftIdx == pivotIdx)
                 pivotIdx = idx;
+
+            leftIdx += 1;
 
         }
 
