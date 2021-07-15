@@ -2,8 +2,8 @@
 #include <queue>
 #include <utility>
 #include <cmath>
-#include "../include/serialQuickSort.hpp"
-#include "serialQuickSort.cpp"
+#include "../include/threadedQuickSort.h"
+#include "threadedQuickSort.cpp"
 
 /* Iterative Implementation of serial Quicksort algorithm */
 
@@ -23,12 +23,12 @@ void showQueue( T& taskQueue ) {
 
 int main() {
 
-    std::vector<int> arr = {-4,-5,-6,-7};
-    
+    std::vector<int> arr = {1, 3, 2, 5, 6, -1};
+
     quickSort(arr);
 
     for(const auto& item: arr) {
-        std::cout << item;
+        std::cout << item << "\t";
     }
 
     return 0;
