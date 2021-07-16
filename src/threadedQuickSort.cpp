@@ -21,7 +21,7 @@ int partition(T& arr, int left, int pivot, int& pivotIdx, int right) {
 
             if (leftIdx == pivotIdx)
                 pivotIdx = idx;
-
+                
             leftIdx += 1;
 
         }

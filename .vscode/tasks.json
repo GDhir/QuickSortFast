@@ -5,9 +5,10 @@
             "label": "C/C++: g++ build active file",
             "command": "/usr/bin/g++",
             "args": [
+                "-I/home/gaurav/QuickSort/include",
                 "-fopenmp",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",
+                "/home/gaurav/QuickSort/bin/${fileBasenameNoExtension}",
                 "${file}"
             ],
             "options": {
@@ -27,9 +28,10 @@
             "label": "C/C++: g++ build active file",
             "command": "/usr/bin/g++",
             "args": [
+                "-I/home/gaurav/QuickSort/include",
                 "-fopenmp",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",
+                "/home/gaurav/QuickSort/bin/${fileBasenameNoExtension}",
                 "${file}"
             ],
             "options": {

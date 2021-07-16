@@ -2,7 +2,7 @@
 #include <queue>
 #include <utility>
 #include <cmath>
-#include "../include/serialQuickSort.hpp"
+#include "serialQuickSort.hpp"
 #include "serialQuickSort.cpp"
 
 /* Iterative Implementation of serial Quicksort algorithm */

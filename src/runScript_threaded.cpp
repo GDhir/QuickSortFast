@@ -2,7 +2,7 @@
 #include <queue>
 #include <utility>
 #include <cmath>
-#include "../include/threadedQuickSort.h"
+#include "threadedQuickSort.h"
 #include "threadedQuickSort.cpp"
 
 /* Iterative Implementation of serial Quicksort algorithm */
