@@ -1,6 +1,6 @@
 #include "testFixture.cpp"
 #include <algorithm>
-#include "../src/serialQuickSort.cpp"
+#include "../src/threadedQuickSort_omp.cpp"
 #include "gtest/gtest.h"
 
 TEST_P(SortedResultsFixture, ChecksIfSortWorksForRandomNumbers)

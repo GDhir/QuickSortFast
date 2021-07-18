@@ -13,7 +13,7 @@ using ValuesContainer = std::vector<std::vector<int>>;
 ValuesContainer make_values()
 {
     srand((unsigned)time(0));
-    int max_size{10000};
+    int max_size{1000};
 
     ValuesContainer allInputs;
 
