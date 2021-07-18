@@ -7,7 +7,7 @@ multithreaded source files.
 
 For example,
 
-/usr/bin/g++ -fopenmp -o /home/gaurav/QuickSort/src/runScript_threaded /home/gaurav/QuickSort/src/runScript_threaded.cpp
+/usr/bin/g++ -I/home/gaurav/QuickSort/include -fopenmp -o /home/gaurav/QuickSort/src/runScript_threaded /home/gaurav/QuickSort/src/runScript_threaded.cpp
 
 command would be required to compile the threaded source file.
 
