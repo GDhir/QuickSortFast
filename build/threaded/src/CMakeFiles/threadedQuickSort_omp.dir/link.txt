@@ -1,0 +1,2 @@
+/usr/bin/ar qc libthreadedQuickSort_omp.a  CMakeFiles/threadedQuickSort_omp.dir/threadedQuickSort_omp.cpp.o
+/usr/bin/ranlib libthreadedQuickSort_omp.a

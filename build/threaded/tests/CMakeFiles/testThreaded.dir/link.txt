@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/testThreaded.dir/testThreaded.cpp.o  -o testThreaded ../../../googletest/build/lib/libgtestd.a ../../../googletest/build/lib/libgtest_maind.a -lpthread /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.so -lpthread 

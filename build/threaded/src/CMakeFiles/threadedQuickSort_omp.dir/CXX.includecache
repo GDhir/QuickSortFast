@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gaurav/QuickSort/threaded/src/threadedQuickSort_omp.cpp
+iostream
+-
+queue
+-
+utility
+-
+cmath
+-
+omp.h
+-
+
