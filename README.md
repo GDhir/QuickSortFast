@@ -11,6 +11,12 @@ For example,
 
 command would be required to compile the threaded source file.
 
+If using CMAKE for build process, type cmake .. from the top level build directory for out of source builds.
+
+For enabling/disabling threaded implementation, set the option THREADS_ENABLED to True/False in the top level CMakeLists.txt file.
+
+After completing generation of MAKEFILE in the build directory, simply type make and specified targets will be built in the build directory.
+
 You can specify the number of threads used by OpenMP via the following command:
 
 export OMP_NUM_THREADS="YOUR SPECIFIED NUMBER OF THREADS"
