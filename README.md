@@ -1,6 +1,20 @@
 # QuickSortFast
 Repository displays C++ implementation of serial and multithreaded implementation of quicksort
 
+Project supports using docker for running containerized builds and tests. After cloning the repo,
+use the following commands to run a containerized build and all the tests from the project root folder:
+
+docker build -t buildimage . --target build
+
+docker run -v ~/QuickSort:/app buildimage
+
+docker build -t testimage . --target test
+
+docker run -v ~/QuickSort:/app testimage
+
+Make sure to mount the correct volume in the above commands in case of cloning project root in a folder other
+than the HOME directory.
+
 In order to compile the threaded implementation, install OpenMP library first from the web. 
 Once OpenMP is installed, to compile directly from terminal, use -fopenmp flag while compiling
 multithreaded source files.
