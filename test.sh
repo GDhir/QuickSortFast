@@ -2,7 +2,7 @@
 
 if [ ! -d "build" ] 
 then
-    echo "Directory build DOES NOT exists. Make sure to build the source before running tests" 
+    echo "Directory build DOES NOT exist. Make sure to build the source before running tests" 
     exit 9999 # die with error code 9999
 fi
 

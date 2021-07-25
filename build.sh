@@ -2,13 +2,13 @@
 
 if [ ! -d "serial" ] 
 then
-    echo "Directory serial DOES NOT exists." 
+    echo "Directory serial DOES NOT exist." 
     exit 9999 # die with error code 9999
 fi
 
 if [ ! -d "threaded" ] 
 then
-    echo "Directory threaded DOES NOT exists." 
+    echo "Directory threaded DOES NOT exist." 
     exit 9999 # die with error code 9999
 fi
 
@@ -18,7 +18,7 @@ if [ ! -f "$FILE" ]; then
     exit 9999 # diel with error code 9999
 fi
 
-if [ -d "threaded" ] 
+if [ -d "build" ] 
 then
     echo "Build directory aleady exists. Forcing removal of current build directory for rebuilding source" 
     rm -rf build
